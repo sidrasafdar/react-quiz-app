@@ -1,16 +1,131 @@
-# React + Vite
+# 🎯 React Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive **General Knowledge Quiz Application** built with **React** and **Vite**. The application presents multiple-choice questions, provides instant feedback on each answer, tracks the user's score, and displays the final result at the end of the quiz.
 
-Currently, two official plugins are available:
+This project was developed to strengthen core React concepts such as state management, conditional rendering, event handling, and dynamic UI updates.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📚 20 General Knowledge Questions
+- ✅ Instant answer validation
+- 🎨 Highlights correct and incorrect answers
+- ➡️ Next Question navigation
+- 📊 Live score tracking
+- 🏁 Final score screen
+- 🔄 Play Again functionality
+- 📱 Responsive and user-friendly interface
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Built With
+
+- React
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+## 📂 Project Structure
+
+```
+react-quiz-app/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   │   ├── Quiz.jsx
+│   │   ├── Quiz.css
+│   │   └── hero.png
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── index.html
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sidrasafdar/react-quiz-app.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd react-quiz-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 💡 React Concepts Practiced
+
+- Functional Components
+- JSX
+- useState Hook
+- Event Handling
+- Conditional Rendering
+- Rendering Lists with `.map()`
+- Passing Props & Arguments
+- Dynamic State Updates
+- Array of Objects
+- Component Styling
+
+---
+
+## 🎯 Future Improvements
+
+- Timer for each question
+- Progress bar
+- Difficulty levels
+- Category selection
+- Randomized questions
+- Sound effects
+- Dark mode
+- Score history using Local Storage
+- Fetch questions from an external API
+
+---
+
+## 👩‍💻 Author
+
+**Sidra Safdar**
+
+- GitHub: https://github.com/sidrasafdar
+
+---
+
+## 📄 License
+
+This project is open source and available under the MIT License.
